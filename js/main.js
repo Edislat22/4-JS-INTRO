@@ -1,3 +1,4 @@
+"use strict";
 // vienos eilutes komentaras
 
 /*
@@ -71,3 +72,58 @@ const s1 = 5;
 const s2 = 8;
 
 console.log(s1 + s2);
+console.log(s1 - s2);
+console.log(s1 * s2);
+console.log(s1 / s2);
+console.log(s1 ** s2);  // kelimas laipsniu: penki astuntoju
+
+console.log(2 + 2 * 2);
+console.log((2 + 2) * 2);
+
+console.log("-----------------------------");
+
+// tekstines operacijos
+
+const hi = "Labas";
+const morning = "rytas";
+
+const sayHi = hi + " " + morning + "!";
+console.log(sayHi);
+
+/*
+teksto gali buti inicijota:
+   viengubose kabutese
+   dvigubose kabutese
+*/
+
+// tekste naudojamos dvigubos kabutes
+const dvigubosTekste = 'Tekste naudojamos dvigubos (") kabutes.';
+console.log(dvigubosTekste);
+
+// tekste naudojamos viengubos kabutes
+const viengubosTekste = "Tekste naudojamos dvigubos (') kabutes.";
+console.log(viengubosTekste);
+
+// tekste naudojamos viengubos ir dvigubos kabutes
+const abiTekste1 = 'Tekste yra abi kabutes 1 (\') ir 2 (").';
+console.log(abiTekste1);
+
+const abiTekste2 = "Tekste yra abi kabutes 1 (') ir 2 (\").";
+console.log(abiTekste2);
+
+const abiTekste12 = 'Tekste yra abi kabutes 1 (\') ir 2 (\").';
+console.log(abiTekste12);
+
+const abiTekste21 = "Tekste yra abi kabutes 1 (\') ir 2 (\").";
+console.log(abiTekste21);
+
+const imgSrc = './img/doggo.jpg';
+
+const html = '<main>\
+                <img src="'+ imgSrc + '">\
+                <div>\
+                  <h1>404</h1>\
+                  <p>Lorem ipsum</p>\
+                </div>\
+            </main>';
+console.log(html);
