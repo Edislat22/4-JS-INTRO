@@ -92,8 +92,9 @@ console.log(sayHi);
 
 /*
 teksto gali buti inicijota:
-   viengubose kabutese
-   dvigubose kabutese
+   viengubose kabutese  ''
+   dvigubose kabutese   ""
+   back tick kabutes    `` 
 */
 
 // tekste naudojamos dvigubos kabutes
@@ -118,12 +119,24 @@ const abiTekste21 = "Tekste yra abi kabutes 1 (\') ir 2 (\").";
 console.log(abiTekste21);
 
 const imgSrc = './img/doggo.jpg';
+const h1 = 'Labas rytas!';
+const p = 'tekstas tekstas tekstas.';
 
 const html = '<main>\
                 <img src="'+ imgSrc + '">\
                 <div>\
-                  <h1>404</h1>\
-                  <p>Lorem ipsum</p>\
+                  <h1>'+ h1 + '</h1>\
+                  <p>'+ p + '</p>\
                 </div>\
-            </main>';
+             </main>';
 console.log(html);
+
+const beatifulHTML = `<main>\
+                <img src="${imgSrc}">
+                <div>\
+                  <h1>${h1}</h1>
+                  <p>${p}</p>
+                </div>
+             </main>`;
+console.log(beatifulHTML);
+
