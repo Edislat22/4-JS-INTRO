@@ -140,3 +140,10 @@ const beatifulHTML = `<main>\
              </main>`;
 console.log(beatifulHTML);
 
+console.log("-----------------------------");
+
+const  person = 'Johnny Boy';
+const candy = 'lolly pop';
+
+const sentence =`${person} do you want a ${candy}? `;
+console.log(sentence);
