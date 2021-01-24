@@ -1,3 +1,5 @@
+"use strict";
+
 const day = 8;
 
 switch (day) {
