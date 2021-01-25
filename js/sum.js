@@ -11,11 +11,16 @@ const n6 = 555;
 
 function sum(firstNumber, secondNumber) {
     const totalSum = firstNumber + secondNumber;
-    console.log(totalSum);
+    return totalSum;
+
 }
 
-sum(9, 4);
-sum(n1, n2);
-sum(n3, n4);
-sum(n5, n6);
+const s1 = sum(9, 4);
+const s2 = sum(n1, n2);
+const s3 = sum(n3, n4);
+const s4 = sum(n5, n6);
 
+console.log(s1);
+console.log(s2);
+console.log(s3);
+console.log(s4);
