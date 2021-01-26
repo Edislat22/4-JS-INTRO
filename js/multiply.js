@@ -48,6 +48,10 @@ console.log(multiply('labas', 'rytas'));
 console.log(multiply('labas', 5));
 console.log(multiply(5, 'labas'));
 console.log(multiply(true, 4));
+console.log(multiply(NaN, 5));
+console.log(multiply(NaN, NaN));
+console.log(multiply(8, NaN));
+
 
 console.log('-----------------------');
 
@@ -58,8 +62,5 @@ console.log(multiply(0.4, 3.65), '->', 1.46);
 console.log(multiply(-1, 0), '->', 0);
 
 
-console.log(multiply(NaN, 5));
-console.log(multiply(NaN, NaN));
-console.log(multiply(8, NaN));
 
 
